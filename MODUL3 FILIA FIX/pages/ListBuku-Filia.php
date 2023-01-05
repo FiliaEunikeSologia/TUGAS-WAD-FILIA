@@ -51,7 +51,7 @@
             $judul = $row["judul_buku"];
             $penerbit = $row["penerbit_buku"];
             $genre = $row["genre_buku"];
-            $harga = $row["harga"]; 
+            $harga = $row["harga_buku"]; 
 ?>
 
 
