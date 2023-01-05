@@ -41,17 +41,17 @@
       
 <?php
       require('../config/connector.php');
-      $query = "SELECT * FROM tokobuku ORDER BY id_buku";
+      $query = "SELECT * FROM buku ORDER BY id_buku";
       $filia = $connect->prepare($query);
       $filia->execute();
       $res1 = $filia->get_result();
 
       while ($row = $res1->fetch_assoc()) {
-            $buku = $inputdata["id_buku"];
-            $judul = $inputdata["judul_buku"];
-            $penerbit = $inputdata["penerbit_buku"];
-            $genre = $inputdata["genre_buku"];
-            $harga = $inputdata["harga"]; 
+            $buku = $row["id_buku"];
+            $judul = $row["judul_buku"];
+            $penerbit = $row["penerbit_buku"];
+            $genre = $row["genre_buku"];
+            $harga = $row["harga"]; 
 ?>
 
 
