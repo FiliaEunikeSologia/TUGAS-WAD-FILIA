@@ -28,7 +28,7 @@ include ('../config/insert.php');
                               <a class="nav-link" aria-current="page" href="Home-Filia.php" style=" padding-left: 70px; font-weight:500;">Home</a>
                         </li>
                         <li class="nav-item">
-                              <a class="nav-link active" href="ListCar-Filia.php" style="color: white; padding-left:30px;font-weight:500;">MyBookStore</a>
+                              <a class="nav-link active" href="ListBuku-Filia.php" style="color: white; padding-left:30px;font-weight:500;">MyBookStore</a>
                         </li>
                   </ul>
             </div>
